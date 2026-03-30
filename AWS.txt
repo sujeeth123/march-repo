@@ -1,0 +1,27 @@
+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-token
+
+************************************************************
+Let's assume that you have two folders, folder1 and folder2. Now, folder1 has some files and folders. Now, write a command to copy all files and folders from folder1 to folder2
+
+mkdir folder1 folder2
+echo "Hello Linux" > folder1/file1.txt
+cp folder1/file1.txt folder2/
+
+***********************************************
+
+
+Let's assume that you have five files: file1, file2, file3, file4, file5. Let's assume that file1 has some data. Now write a command to copy the data from file1 to the remaining four files at a time
+
+touch file1 file2 file3 file4 file5
+echo "Hello from file1" > file1
+tee file2 file3 file4 file5 < file1
+*************************************************
+
+Let's assume that you have two folders, folder one and folder two. Now folder one has one file with data. Now how to copy the data from folder one to folder two?
+
+mkdir folder1 folder2
+echo "Hello from Linux EC2" > folder1/file1.txt
+cp folder1/file1.txt folder2/
+
+********************************************************************************
+
